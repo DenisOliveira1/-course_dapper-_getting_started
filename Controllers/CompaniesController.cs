@@ -10,9 +10,9 @@ namespace DapperDemo.Copntrollers
 {
     public class CompaniesController : Controller
     {
-        private readonly ICompanyRepository _companyRepository;
+        private readonly ICompanyRepositoryDapper _companyRepository;
 
-        public CompaniesController(ICompanyRepository companyRepository)
+        public CompaniesController(ICompanyRepositoryDapper companyRepository)
         {
             _companyRepository = companyRepository;
         }
