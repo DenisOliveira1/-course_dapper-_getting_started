@@ -1,5 +1,6 @@
 ﻿Se os comandos de migrations não funcionarem baixar o pacote:
 	Microsoft.EntityFrameworkCore.Tools
 
+Para criar o controller MVC foi necessário:
 	Microsoft.Bcl.AsyncInterfaces 
 	Tive que mudar a versão do projeto para net5.0 no .csproj
